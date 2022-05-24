@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EJERCICIO11.MainPage"
              xmlns:controls="clr-namespace:EJERCICIO11.Controls;assembly=EJERCICIO11"
-             xmlns:prism="http://prismlibrary.com"
              Title="Operaciones Basicas"
              BackgroundColor="Lavender">
 
@@ -16,7 +15,7 @@
             BorderColor="White"
             BorderThickness="1"
             CornerRadius="8"
-            Placeholder="Ingrese su primero nombre"
+            Placeholder="Ingrese su primer numero"
             x:Name="txtNum1"
             PlaceholderColor="White"
             TextColor="White"
@@ -39,39 +38,39 @@
             Grid.Row="2"
             BackgroundColor="#efb810"
             CornerRadius="8"
-            Text="Sumar"
+            Text="Suma"
             TextColor="#4758AE"
-            TranslationY="-20" 
+            TranslationY="-15" 
             x:Name="btnSumar"
             Clicked="btnSumar_Clicked"/>
         <Button
             Grid.Row="3"
             BackgroundColor="#efb810"
             CornerRadius="8"
-            Text="Restar"
+            Text="Resta"
             TextColor="#4758AE"
-            TranslationY="-20" 
+            TranslationY="-15" 
              x:Name="btnRestar"
             Clicked="btnRestar_Clicked"/>
        
         <Button
              
-            Grid.Row="5"
+            Grid.Row="4"
             BackgroundColor="#efb810"
             CornerRadius="8"
-            Text="Divicion"
+            Text="Division"
             TextColor="#4758AE"
-            TranslationY="-20" 
+            TranslationY="-15" 
             x:Name="btnDividir"
             Clicked="btnDividir_Clicked"/>
         <Button
            
-            Grid.Row="4"
+            Grid.Row="5"
             BackgroundColor="#efb810"
             CornerRadius="8"
             Text="Multiplicacion"
             TextColor="#4758AE"
-            TranslationY="-20" 
+            TranslationY="-15" 
             x:Name="btnMultiplicar"
             Clicked="btnMultiplicar_Clicked"/>
     </Grid>
