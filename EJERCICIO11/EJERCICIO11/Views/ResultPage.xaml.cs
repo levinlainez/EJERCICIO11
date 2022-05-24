@@ -15,7 +15,7 @@ namespace EJERCICIO11.Views
         public ResultPage(Decimal resultado)
         {
             InitializeComponent();
-            txtResultado.Text = "Su resultado es: " + resultado.ToString();
+            txtResultado.Text = "El resultado de la operacion es: " + resultado.ToString();
         }
     }
 }

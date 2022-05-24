@@ -17,12 +17,12 @@ namespace EJERCICIO11.Views {
     public partial class ResultPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label txtResultado;
+        private global::EJERCICIO11.Controls.StandardEntry txtResultado;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ResultPage));
-            txtResultado = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtResultado");
+            txtResultado = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EJERCICIO11.Controls.StandardEntry>(this, "txtResultado");
         }
     }
 }

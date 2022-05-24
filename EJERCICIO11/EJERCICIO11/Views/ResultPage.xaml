@@ -5,23 +5,26 @@
              xmlns:controls="clr-namespace:EJERCICIO11.Controls;assembly=EJERCICIO11"
              xmlns:prism="http://prismlibrary.com"
              Title="Resultado de las Operaciones"
-             BackgroundColor="#394BA7">
+             BackgroundColor="Lavender">
 
     <Grid Padding="20" RowSpacing="20">
-        <Label
+      
+        <controls:StandardEntry
             Grid.Row="0"
             FontAttributes="Bold"
-            FontSize="Large"
-            Text="Resultado"
-            TextColor="White" 
+            BorderColor="#5e99d3"
+            BorderThickness="2"
+            CornerRadius="8"
+            FontSize="Medium"
             x:Name="txtResultado"
-            BackgroundColor="#31FFFFFF"
+            Keyboard="Numeric"
+            BackgroundColor="white"
             VerticalOptions="CenterAndExpand" 
             HorizontalOptions="CenterAndExpand"
-            Padding="30,10,30,10"
-            
-            />
-      
+            IsEnabled="False"
+            TextColor="Black"
+            Padding="13"/>
+
 
     </Grid>
 </ContentPage>
